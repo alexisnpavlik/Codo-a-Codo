@@ -1,0 +1,27 @@
+/*BORDES*/
+
+table{
+    border: 2px solid black;/*double dotted*/
+}
+
+td{
+    border-left: 1px dotted violet;
+    border-right: 1px double red ;
+    border-bottom: 1px solid blue;
+}
+
+/*redondearlo*/
+button{
+    border-radius: 25px;
+    /*border: none; saco el borde*/
+}
+
+ol li{
+    /*aca entro a la ordenada*/
+    list-style-type: circle; /*puedo poner lower-roman*/
+}
+
+ul li{
+    /*aca entro a la desordenada*/
+    list-style-type: lower-roman;
+}

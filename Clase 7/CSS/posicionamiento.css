@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+.padre{
+    border: solid 1px;
+    width: 50vw;
+    height: 50vw;
+}
+.relative{
+    background-color: blue;
+    width: 150px;
+    height: 150px;   
+    position: relative;
+    top: 50px;
+}
+.absolute{
+    background-color: chocolate;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+.fixes{
+    background-color: crimson;
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    top: 10cm;
+}
+.sticky{
+    background-color: rgb(77, 220, 20);
+    position: sticky;
+    width: 150px;
+    height: 150px;
+    top: 50px;
+
+}

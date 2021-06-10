@@ -1,0 +1,51 @@
+/*Ver maquetacion*/
+
+/*voy a llamar a esas imagenes en particular , no a otras
+esto lo logro anidando de esta manera*/
+/*si llamara solo a img haria referencia a TOOODAS*/
+span img{
+    width: 250px;
+    height: 300px;
+}
+
+/*le doy colores a todas las secciones*/
+header{
+    background-color: tomato;
+}
+section{
+    background-color: yellow;
+}
+article{
+    background-color: violet;
+}
+footer{
+    background-color: grey;
+}
+
+/*propiedades de texto*/
+/*separar las letras del titulo*/
+h1{
+    letter-spacing: 5px;
+}
+
+/*Separar palabras*/
+.parrafo1{
+    word-spacing: 25px;
+}
+
+/*mandar al centro izq o derecha el subtitulo*/
+h2{
+    text-align: center;
+}
+
+/*pasar todo a mayusculas , minusculas o capitalize */
+.parrafo2{
+    text-transform: capitalize ;
+}
+
+/*subrayar por arriba , medio o abajo*/
+h4{
+    text-decoration: overline underline line-through red;
+    /*Soy sombra*/
+    text-shadow: 5px 3px green; /*primer valor es derecha , segundo abajo*/
+}

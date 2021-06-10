@@ -1,0 +1,50 @@
+@font-face {
+    font-family: lemon;
+    src: url(../Font/Lemon\ Friday.ttf);
+    font-style: normal;
+    font-size:x-large;
+}
+*{
+    background-color: #4999d3;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    margin: auto;
+    padding: 10px;
+
+}
+.hiper{
+    display: flex;
+    justify-content: flex-end;
+}
+
+h1{
+    text-align: center;
+}
+.contend{
+display: flex;
+padding: 10px;
+}
+table, th, td {
+    border: solid;
+    
+}
+.ta{
+    font-size: x-large;
+}
+.texto{
+    font-size: 15px;
+}
+caption{
+    font-size: x-large;
+}
+h2{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color:#3f3697 ;
+}

@@ -1,0 +1,53 @@
+@font-face {
+    font-family:"lemon" ;
+    src: url("../font/Lemon\ Friday.ttf");
+    font-style: normal;
+    font-size: normal;
+}
+
+
+
+
+
+h1 {
+    color:blue;
+    
+}
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    color: violet;
+    background-color: teal;
+}
+ 
+
+
+
+#ING{
+    color: yellowgreen;
+}
+
+.letra{
+    font-size: 80px;    
+     color: wheat;  /*el id tiene predominancia a la clase */
+     /* Si podemos pizar todos los anteriores con el syle dentro del html */
+}
+ 
+body{
+    background-color: violet;
+}
+
+
+.sin-serifa{
+    font-family:sans-serif; 
+}
+
+.letraaa{
+    font-family: lemon;
+}
+
+.nu{
+    font-family: 'Roboto', sans-serif;
+}

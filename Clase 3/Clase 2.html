@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <style>
+        table,td,th{border: solid;}
+    </style>
+    <script src="https://kit.fontawesome.com/be6fadabdf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a href="#listas">Listas</a>
+        <a href="#tablas">Tabla 1</a>
+        <a href="#tablas 2">Tabla compartida</a>
+    </header>
+    <main>
+        <section id="listas">
+            <h2><i class="fas fa-list-ul"> Listas Ordenadas</i></h2>
+            <ul type="1">
+                <li>Opcion 1</li>
+                <li>Opcion 2</li>
+                <li>Opcion 3</li>
+                <li>Opcion 4</li>
+                <li>Opcion 5</li>
+                <li>Opcion 6</li>
+            </ul>
+        </section>
+        <section id="tablas">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Drogas</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Canabis</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>Marihuana</td>
+                        <td>75</td>
+                    </tr>
+                 </tbody>
+                 <caption>Mi primera matriz</caption>
+             </table>
+        </section>
+        <section id="tablas 2">
+            <table>
+                <caption>Tabla de zonas</caption>
+                <tr>
+                    <td rowspan="3">Zona sur</td>
+                    <td>Avellaneda</td>
+                    <td>Lanus</td>
+                </tr>
+                <tr>
+                    <td colspan="2">banfield</td>
+                </tr>
+                <tr>
+                    <td>Quimes</td>
+                    <td>Berazategui</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Zona Oeste</td>
+                    <td>Moron</td>
+                    <td>Merlo</td>
+                </tr>
+                <tr>
+                    <td>Moreno</td>
+                    <td>Haedo</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+</body>
+</html>

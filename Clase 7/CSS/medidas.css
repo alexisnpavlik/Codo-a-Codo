@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+}
+.cm{
+    font-size: 1cm;
+}
+.mm{
+    font-size: 10mm;
+}
+.px{
+    font-size: 38px;
+}
+.pt{
+    font-size: 28.4pt;
+}
+.in{
+    font-size: 0.4in;
+}
+.pc{
+    font-size: 2.36pc;
+}
+h2{
+    color: rgb(0, 26, 110);
+}
+
+section{
+    font-size: 30px;
+}
+.em{
+    font-size: 2em;
+    /* Toma como unidad (1 em) el valor del padre (section) */
+}
+.rem{
+    font-size: 2rem;
+    /* toma en cuenta la el tamaño de html (16px predeterminado) */
+}
+
+.por{
+    font-size: 62.5%;
+    /* tamaño de del html en porcentaje = 10px */
+}
+img{
+    width: 50vw;
+    height: 50vh;
+    /* Hace que la imagen se vea 50% de la pagina */
+}

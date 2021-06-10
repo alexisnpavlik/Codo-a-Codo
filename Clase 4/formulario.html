@@ -1,0 +1,52 @@
+ <!DOCTYPE html>
+ <html lang="es">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Formulario</title>
+ </head>
+ <body>
+     <head>
+        <h1>Formulario</h1>
+     </head>    
+     <section>
+        <!-- <form action="">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="Nombre" id="nombre"/>
+        </form> -->
+
+        <form action="https://formspree.io/f/mbjqlzlo" method="POST" target="_blank">
+            <label">
+                Nombre:
+                <input type="text" name="nombre">   
+                <!-- se usa mas ahora -->
+            </label>
+            <label>Seleccionar un curso
+                <select name="selector">
+                    <option value="java">Elijo Java</option>
+                    <option value="python">Elijo Python</option>
+                    <option value="c++">Elijo C++</option>
+                </select>
+            </label>
+            <label>
+                Comentarios
+                <textarea name="comentarios"cols="30" rows="10"></textarea>
+            </label>
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label>
+                    Deportes: <input type="tex" name="deporte">
+                </label>
+                <label>
+                    Tipo de bicicleta: <input type="text" name="bicicleta" value="generica">
+                </label>
+            </fieldset>
+            <input type="reset" name="reset">
+            <input type="submit" name="submit">
+        </form>
+     </section>
+
+
+ </body>
+ </html>

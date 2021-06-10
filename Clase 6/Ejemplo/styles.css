@@ -1,0 +1,32 @@
+*{ /*Selector universal*/
+    margin: 0;/*saco margenes*/
+}
+
+span{
+    background-color: red;
+    border: 1px solid green;
+    /*height: 100px; los inline ignoran el height y el width*/
+}
+
+div{
+    background-color: blue;
+    border: 1px solid yellow;
+    width: 100px;
+    height: 100px;
+    /*el dislpay del div por defecto es block , pero si quiero
+    que esten en linea y ademas respeten alto y ancho utilizo el 
+    display: inline-block  MEJOR DE LOS MUNDOS.. */
+    display: inline-block;/*respeta alto y ancho y va en linea*/
+
+    /*tambien esta display none o visibility:hidden*/
+   
+   
+    /*display:none     desaparece del documento*/
+    /*visibility: hidden; no se ve pero ocupa espacio*/
+}
+
+/*
+Si al SPAN le pongo:
+display:block    lo estaria transformando
+en un div.
+*/

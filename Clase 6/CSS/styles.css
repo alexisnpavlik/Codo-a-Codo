@@ -1,0 +1,22 @@
+*{
+    margin: 0cm;
+}
+
+span{
+    background-color: aqua;
+    border: 2px solid red;
+
+}
+
+div{background-color: royalblue;
+    border: 2px solid red;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+
+
+}
+
+
+
+
